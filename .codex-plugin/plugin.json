@@ -1,0 +1,30 @@
+{
+  "name": "figma-mcp-doctor",
+  "version": "0.1.0",
+  "description": "Diagnose and repair Figma MCP, figma-desktop, and use_figma issues in Codex Desktop.",
+  "author": {
+    "name": "daydreampp"
+  },
+  "homepage": "https://github.com/daydreampp/figma-mcp-doctor",
+  "repository": "https://github.com/daydreampp/figma-mcp-doctor",
+  "keywords": [
+    "figma",
+    "mcp",
+    "codex",
+    "use_figma",
+    "doctor"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Figma MCP Doctor",
+    "shortDescription": "Diagnose and repair Figma MCP and use_figma issues in Codex Desktop.",
+    "longDescription": "Figma MCP Doctor helps Codex users diagnose and repair local Figma Desktop MCP, remote Figma MCP OAuth, figma@openai-curated plugin sync, use_figma availability, stale tool lists, and IPv4/proxy issues.",
+    "developerName": "daydreampp",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": "My Figma MCP or use_figma is not working in Codex. Diagnose it first, then recommend the safest repair."
+  }
+}
