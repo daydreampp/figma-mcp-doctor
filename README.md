@@ -2,6 +2,27 @@
 
 A Codex plugin that diagnoses and repairs Figma MCP, `figma-desktop`, and `use_figma` issues in Codex Desktop.
 
+## Prerequisite
+
+This plugin is installed with the Codex CLI. If Terminal says `zsh: command not found: codex`, install Codex first:
+
+```bash
+npm install -g @openai/codex
+codex --login
+```
+
+If `npm` is missing on macOS, install Node.js first:
+
+```bash
+brew install node
+```
+
+Then verify:
+
+```bash
+codex --version
+```
+
 ## Install
 
 Run these commands in Terminal:
